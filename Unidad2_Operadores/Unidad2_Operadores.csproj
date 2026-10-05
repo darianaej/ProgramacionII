@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6545E909-BC32-45D1-B301-4A7926B3A607}</ProjectGuid>
+    <ProjectGuid>{AD96A476-96A3-4CA6-A6CE-33125657BDF0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Unidad1_Controles</RootNamespace>
-    <AssemblyName>Unidad1_Controles</AssemblyName>
+    <RootNamespace>Unidad2_Operadores</RootNamespace>
+    <AssemblyName>Unidad2_Operadores</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,43 +46,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Ejemplos_Operadores\Colores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Ejemplos_Operadores\Colores.Designer.cs">
+      <DependentUpon>Colores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Prácticas_PrimeraClase\FormRegistro.cs">
+    <Compile Include="Ejemplos_Operadores\Comparadores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Prácticas_PrimeraClase\FormRegistro.Designer.cs">
-      <DependentUpon>FormRegistro.cs</DependentUpon>
+    <Compile Include="Ejemplos_Operadores\Comparadores.Designer.cs">
+      <DependentUpon>Comparadores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Prácticas_PrimeraClase\Form_Multiplicar.cs">
+    <Compile Include="Ejemplos_Operadores\EjemploOperadores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Prácticas_PrimeraClase\Form_Multiplicar.Designer.cs">
-      <DependentUpon>Form_Multiplicar.cs</DependentUpon>
+    <Compile Include="Ejemplos_Operadores\EjemploOperadores.Designer.cs">
+      <DependentUpon>EjemploOperadores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Prácticas_PrimeraClase\Form_Sumar.cs">
+    <Compile Include="Ejemplos_Operadores\EjemplosControles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Prácticas_PrimeraClase\Form_Sumar.Designer.cs">
-      <DependentUpon>Form_Sumar.cs</DependentUpon>
+    <Compile Include="Ejemplos_Operadores\EjemplosControles.Designer.cs">
+      <DependentUpon>EjemplosControles.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Tarea_Unidad2_CSharp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_Unidad2_CSharp.Designer.cs">
+      <DependentUpon>Tarea_Unidad2_CSharp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ejemplos_Operadores\Colores.resx">
+      <DependentUpon>Colores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Prácticas_PrimeraClase\FormRegistro.resx">
-      <DependentUpon>FormRegistro.cs</DependentUpon>
+    <EmbeddedResource Include="Ejemplos_Operadores\Comparadores.resx">
+      <DependentUpon>Comparadores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Prácticas_PrimeraClase\Form_Multiplicar.resx">
-      <DependentUpon>Form_Multiplicar.cs</DependentUpon>
+    <EmbeddedResource Include="Ejemplos_Operadores\EjemploOperadores.resx">
+      <DependentUpon>EjemploOperadores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Prácticas_PrimeraClase\Form_Sumar.resx">
-      <DependentUpon>Form_Sumar.cs</DependentUpon>
+    <EmbeddedResource Include="Ejemplos_Operadores\EjemplosControles.resx">
+      <DependentUpon>EjemplosControles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tarea_Unidad2_CSharp.resx">
+      <DependentUpon>Tarea_Unidad2_CSharp.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -106,5 +115,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

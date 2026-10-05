@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Unidad2_Operadores.Ejemplos_Operadores;
 
-namespace Unidad1_Controles
+namespace Unidad2_Operadores
 {
     internal static class Program
     {
@@ -16,10 +17,12 @@ namespace Unidad1_Controles
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form_Sumar());
-            //Application.Run(new Form_Multiplicar());
-            Application.Run(new Form1());
-            
+            //Application.Run(new Tarea_Unidad2_CSharp());
+            //Application.Run(new EjemplosOperadores());
+            //Application.Run(new EjemploOperadores());
+            //Application.Run(new Comparadores());
+            //Application.Run(new EjemplosControles());
+            Application.Run(new Colores());
         }
     }
 }
