@@ -115,7 +115,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(387, 136);
+            this.ClientSize = new System.Drawing.Size(402, 136);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.txtCurso);
             this.Controls.Add(this.txtEdad);
