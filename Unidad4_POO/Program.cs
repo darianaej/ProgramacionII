@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Unidad4_POO.Practicas;
+using Unidad4_POO.Tarea;
 
 namespace Unidad4_POO
 {
@@ -20,7 +21,8 @@ namespace Unidad4_POO
             //Application.Run(new Ejercicio1());
             //Application.Run(new Ejercicio1());
             //Application.Run(new Ejercicio2());
-            Application.Run(new Ejercicio3());
+            //Application.Run(new Ejercicio3());
+            Application.Run(new frmEstudiante());
         }
     }
 }
