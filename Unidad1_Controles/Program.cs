@@ -18,7 +18,7 @@ namespace Unidad1_Controles
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form_Sumar());
             //Application.Run(new Form_Multiplicar());
-            Application.Run(new Form1());
+            Application.Run(new Form_Sumar());
             
         }
     }
