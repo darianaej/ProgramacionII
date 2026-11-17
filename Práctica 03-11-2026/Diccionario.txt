@@ -1,0 +1,5 @@
+Tabla: Clientes
+Columnas:
+IdClientes: Tipo de dato: INT – Restricciones: PRIMARY KEY, AUTO_INCREMENT, NOT NULL
+Nombre: Tipo de dato: VARCHAR - Restricciones: NOT NULL
+Correo: Tipo de dato: VARCHAR - Restricciones: NOT NULL
